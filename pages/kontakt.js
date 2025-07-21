@@ -1,10 +1,11 @@
-import React from 'react';
+
+import Layout from '@/components/Layout'
 
 export default function Kontakt() {
   return (
-    <div className="container mx-auto px-4 py-10">
-      <h2 className="text-3xl font-bold text-gray-800 mb-4">Kontakt oss</h2>
-      <p className="text-lg text-gray-600 mb-6">Tlf support: <strong>46414304</strong></p>
-    </div>
-  );
+    <Layout>
+      <h1 className="text-2xl font-bold mb-4">Kontakt oss</h1>
+      <p>Tlf support: <strong>46414304</strong></p>
+    </Layout>
+  )
 }
